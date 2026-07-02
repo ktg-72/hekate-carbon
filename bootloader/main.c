@@ -1366,7 +1366,7 @@ static void _about()
 		"           / /\\         `) )    / / `\"\".`\\\n"
 		"     , _.-'.'\\ \\        / /    ( (     / /\n"
 		"      `--'`   ) )    .-'.'      '.'.  | (\n"
-		"             (/`    ( (`          ) )  '-;   %k[switchbrew]%k\n"
+		"             (/`    ( (`          ) )  '-;   %k[switchbrewinator]%k\n"
 		"              `      '-;         (-'%k";
 
 	gfx_clear_grey(0x1B);
@@ -1385,7 +1385,7 @@ ment_t ment_cinfo[] = {
 	MDEF_CAPTION("---- SoC Info ----", TXT_CLR_CYAN_L),
 	MDEF_HANDLER("Fuses", print_fuseinfo),
 	MDEF_CHGLINE(),
-	MDEF_CAPTION("-- Storage Info --", TXT_CLR_CYAN_L),
+	MDEF_CAPTION("-- Storage Informatorials --", TXT_CLR_CYAN_L),
 	MDEF_HANDLER("eMMC",    print_mmc_info),
 	MDEF_HANDLER("SD Card", print_sdcard_info),
 	MDEF_CHGLINE(),
@@ -1426,7 +1426,7 @@ ment_t ment_top[] = {
 	MDEF_END()
 };
 
-menu_t menu_top = { ment_top, "hekate v6.5.3", 0, 0 };
+menu_t menu_top = { ment_top, "Bootloadinator (hekate v6.5.3)", 0, 0 };
 
 extern void pivot_stack(u32 stack_top);
 
