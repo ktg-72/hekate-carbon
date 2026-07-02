@@ -24,9 +24,9 @@
 #include <libs/lvgl/lv_themes/lv_theme_hekate.h>
 #include <libs/lvgl/lvgl.h>
 
-#define CLOCK_MIN_YEAR 2025
+#define CLOCK_MIN_YEAR 2026
 #define CLOCK_MAX_YEAR (CLOCK_MIN_YEAR + 10)
-#define CLOCK_YEARLIST "2025\n2026\n2027\n2028\n2029\n2030\n2031\n2032\n2033\n2034\n2035"
+#define CLOCK_YEARLIST "2026\n2027\n2028\n2029\n2030\n2031\n2032\n2033\n2034\n2035\n2036"
 
 static lv_obj_t *autoboot_btn;
 static bool autoboot_first_time = true;
